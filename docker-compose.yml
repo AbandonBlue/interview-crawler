@@ -1,9 +1,10 @@
-version: '3.3'
+version: '3.7'
 services:
   main-python:
     image: "dockerfile-crawler"
     volumes:
      - .:/crawler_app
+
   mongodb:
     image: "mongo:latest"
     links:
@@ -11,3 +12,4 @@ services:
     volumes: 
       - ./db:/data/db
     ports:
+      - "27017:27017"

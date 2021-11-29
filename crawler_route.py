@@ -44,7 +44,8 @@ def to_csv(rows):
 def get_col(db_name="ticket_route_db", col_name="route"):
     # 建立DB、Collection、插入資料
 
-    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")   # local
+    # myclient = pymongo.MongoClient('mongodb', 27017)                      # docker, https://www.opsask.com/post/19385/mongodb-dockercompose-lianjie-wufa-shiyong.html
     mydb = myclient[db_name]
     mycol = mydb[col_name]
     
