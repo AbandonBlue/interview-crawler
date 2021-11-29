@@ -42,6 +42,7 @@
     - 後續的檔案儲存需要透過 docker expose 匯出, 亦可用bash cat簡單檢視
     - [Update]
         - 將 crawler_route.py line 47 註解, 並將 line 48 解除註解即可運行!
+        - ![image](https://user-images.githubusercontent.com/45283438/143841418-1b2ab3e5-6069-4f54-a4f2-87dafa8e149e.png)
         ```
             $ docker-compose up
         ```
