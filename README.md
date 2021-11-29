@@ -44,7 +44,7 @@
     - ~~但因時間有限，故沒有針對這邊繼續解決，還是~~給面試官參考。
     - 後續的檔案儲存需要透過 docker expose 匯出, 亦可用bash cat簡單檢視
     - [Update]
-        - 將 crawler_route.py line 47 註解, 並將 line 48 解除註解即可運行!
+        - **將 crawler_route.py line 47 註解, 並將 line 48 解除註解即可運行!**
         - ![image](https://user-images.githubusercontent.com/45283438/143841418-1b2ab3e5-6069-4f54-a4f2-87dafa8e149e.png)
     - 結果顯示
         - ![image](https://user-images.githubusercontent.com/45283438/143841108-26e9843c-de3e-471c-aaa2-f62ba298eaae.png)
