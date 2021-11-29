@@ -10,7 +10,7 @@
         - db-name: ticket_route_db
         - document-name: route
     5. [x] 統計MongoDB (或SQL)中route欄位有出現埔里的筆數
-        - 簡單用Regex計算
+        - 用Regex計算, 會在最後的cmd(變數名稱count)顯示
 - [x] 測驗題2
     1. [x] 下載學科能力測驗中83年度~109年度全部學科一般試題中所有的pdf檔案
     2. [x] 分類存放下載完成的pdf檔案
