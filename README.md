@@ -38,10 +38,10 @@
 
 - [x] 方法2: 透過docker-compose 連同 mongodb server一同建立
     - 因本地電腦 docker-compose 版本老舊，遇到[docker-compose-up-invalid-service-name 問題](https://stackoverflow.com/questions/53442908/docker-compose-up-invalid-service-name-only-a-za-z0-9-chara)，版本修改即可解決問題。
-    - 但因時間有限，故沒有針對這邊繼續解決，還是給面試官參考。
+    - ~~但因時間有限，故沒有針對這邊繼續解決，還是~~給面試官參考。
     - 後續的檔案儲存需要透過 docker expose 匯出, 亦可用bash cat簡單檢視
     - [Update]
         - 將 crawler_route.py line 47 註解, 並將 line 48 解除註解即可運行!
         ```
-            $ docker-compose ps
+            $ docker-compose up
         ```
