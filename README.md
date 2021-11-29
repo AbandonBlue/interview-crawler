@@ -44,4 +44,5 @@
         - 將 crawler_route.py line 47 註解, 並將 line 48 解除註解即可運行!
         ```
             $ docker-compose up
-        ```
+        ```![image](https://user-images.githubusercontent.com/45283438/143841108-26e9843c-de3e-471c-aaa2-f62ba298eaae.png)
+
