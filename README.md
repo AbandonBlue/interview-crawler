@@ -7,7 +7,9 @@
     2. [x] 將路線查詢結果輸出成CSV
         - 台北到朝馬.csv
     3. [x] 將路線查詢結果寫入MongoDB(或SQL)
-    4. [x] 統計MongoDB (或SQL)中route欄位有出現埔里的筆數
+        - db-name: ticket_route_db
+        - document-name: route
+    5. [x] 統計MongoDB (或SQL)中route欄位有出現埔里的筆數
         - 簡單用Regex計算
 - [x] 測驗題2
     1. [x] 下載學科能力測驗中83年度~109年度全部學科一般試題中所有的pdf檔案
