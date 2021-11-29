@@ -23,6 +23,7 @@
 ### 版本預設 ### 
 - Python: 3.7.3
 - MongoDB: MongoDB 4.0.10 Community
+- OS: Win10
 
 - [x] 方法1: 透過venv 開啟 python 環境確保程式運行，預設本地端mongodb, python已經有建立。
 ```
