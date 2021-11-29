@@ -1,0 +1,13 @@
+version: '3.3'
+services:
+  main-python:
+    image: "dockerfile-crawler"
+    volumes:
+     - .:/crawler_app
+  mongodb:
+    image: "mongo:latest"
+    links:
+      - main-python
+    volumes: 
+      - ./db:/data/db
+    ports:
