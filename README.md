@@ -28,23 +28,24 @@
 - OS: Win10
 
 - [x] 方法1: 透過venv 開啟 python 環境確保程式運行，預設本地端mongodb, python已經有建立。
-```
-          $ python -m virtualenv env
-          $ env\Scripts\activate.bat
-    (env) $ pip install -r requirements.txt
-          $ python crawler.py
-```
+    ```
+              $ python -m virtualenv env
+              $ env\Scripts\activate.bat
+        (env) $ pip install -r requirements.txt
+              $ python crawler.py
+    ```
     - 測驗1第4小題答案會顯示在最後。
 
 - [x] 方法2: 透過docker-compose 連同 mongodb server一同建立
+    ```
+            $ docker-compose up
+    ```
     - 因本地電腦 docker-compose 版本老舊，遇到[docker-compose-up-invalid-service-name 問題](https://stackoverflow.com/questions/53442908/docker-compose-up-invalid-service-name-only-a-za-z0-9-chara)，版本修改即可解決問題。
     - ~~但因時間有限，故沒有針對這邊繼續解決，還是~~給面試官參考。
     - 後續的檔案儲存需要透過 docker expose 匯出, 亦可用bash cat簡單檢視
     - [Update]
         - 將 crawler_route.py line 47 註解, 並將 line 48 解除註解即可運行!
         - ![image](https://user-images.githubusercontent.com/45283438/143841418-1b2ab3e5-6069-4f54-a4f2-87dafa8e149e.png)
-        ```
-            $ docker-compose up
-        ```
-        ![image](https://user-images.githubusercontent.com/45283438/143841108-26e9843c-de3e-471c-aaa2-f62ba298eaae.png)
+    - 結果顯示
+        - ![image](https://user-images.githubusercontent.com/45283438/143841108-26e9843c-de3e-471c-aaa2-f62ba298eaae.png)
 
